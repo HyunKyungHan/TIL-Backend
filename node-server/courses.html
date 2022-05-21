@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Courses</title>
+</head>
+<body>
+    <h1>Check out out courses</h1>
+    <ul>
+        <% courses.forEach(course => {  %>  <!--EJS안에 js문법이 들어갈 땐 <%만 써준다(=쓰지 않음)-->
+        <li> <% courses.name %> </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
